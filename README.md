@@ -26,8 +26,7 @@ transform(x => x * x)({a: 1, b: 2, c: 3}); // {a: 1, b: 4, c: 9}
 
 // a mixin transformer
 var mixin = transform(function(value, key) {return this[key] || value});
-var baseObj = {a: 3, b: 9, c: 12};
-mixin(baseObj, {a: 1, c: 3}); // { a: 1, b: 9, c: 3 }
+mixin({a: 3, b: 9, c: 12}, {a: 1, c: 3}); // { a: 1, b: 9, c: 3 }
 ```
 
 ### Install

@@ -38,8 +38,10 @@ npm install obj-transform
 
 ### API
 
-__Creating a transform function__
+__Creating a transform function__  
+```js
 transform(_callback_);
+```
 
 _callback_ is a function that can accept up to three arguments:
 
@@ -50,8 +52,10 @@ The key for each property in _baseObj_
 **baseObj** (optional)  
 The _baseObj_  
 
-__Using a transform function__
+__Using a transform function__   
+```js
 transformFunction(_object_[, _thisValue_]);
+```
 
 ### Tests
 

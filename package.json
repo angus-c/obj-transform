@@ -1,6 +1,6 @@
 {
   "name": "obj-transform",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generates functions to apply to every property of an object",
   "main": "index.js",
   "scripts": {
